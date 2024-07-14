@@ -86,4 +86,10 @@ router.post("/login", async (req, res) => {
   }
 });
 
+router.delete("/logout", async (req, res) => {
+    res.clearCookie("cookiesToken");
+  
+    return res.json({ message: "Logout successfully!" });
+  });
+
 export default router;
