@@ -8,6 +8,7 @@ const configureMiddleware = (app) => {
       origin: [
         "http://localhost:5173",
         "https://sipatir08.github.io",
+        "https://kostsplayer.github.io",
       ],
       methods: ["GET", "POST", "PUT", "OPTIONS", "DELETE"],
       credentials: true,
